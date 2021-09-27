@@ -53,6 +53,8 @@ vecmem_add_library( vecmem_core core
    "include/vecmem/memory/impl/atomic.ipp"
    "include/vecmem/memory/polymorphic_allocator.hpp"
    "include/vecmem/memory/memory_resource.hpp"
+   "src/memory/identity_memory_resource.cpp"
+   "include/vecmem/memory/identity_memory_resource.hpp"
    "src/memory/host_memory_resource.cpp"
    "include/vecmem/memory/host_memory_resource.hpp"
    "src/memory/binary_page_memory_resource.cpp"

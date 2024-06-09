@@ -7,6 +7,11 @@
  */
 #pragma once
 
+// MSVC include
+#if defined(_MSC_VER)
+#include <intrin.h>
+#endif
+
 // HIP include
 #if defined(__HIP_DEVICE_COMPILE__)
 #include <hip/hip_runtime.h>
